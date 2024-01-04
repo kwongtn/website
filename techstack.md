@@ -1,7 +1,8 @@
 <!--
---- Readme.md Snippet without images Start ---
+&lt;--- Readme.md Snippet without images Start ---&gt;
 ## Tech Stack
 kwongtn/website is built on the following main stack:
+
 - [Ruby](https://www.ruby-lang.org) – Languages
 - [Python](https://www.python.org) – Languages
 - [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -12,11 +13,13 @@ kwongtn/website is built on the following main stack:
 - [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet without images End ---
 
---- Readme.md Snippet with images Start ---
+&lt;--- Readme.md Snippet without images End ---&gt;
+
+&lt;--- Readme.md Snippet with images Start ---&gt;
 ## Tech Stack
 kwongtn/website is built on the following main stack:
+
 - <img width='25' height='25' src='https://img.stackshare.io/service/989/ruby.png' alt='Ruby'/> [Ruby](https://www.ruby-lang.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/993/pUBY5pVj.png' alt='Python'/> [Python](https://www.python.org) – Languages
 - <img width='25' height='25' src='https://img.stackshare.io/service/1209/javascript.jpeg' alt='JavaScript'/> [JavaScript](https://developer.mozilla.org/en-US/docs/Web/JavaScript) – Languages
@@ -27,14 +30,15 @@ kwongtn/website is built on the following main stack:
 - <img width='25' height='25' src='https://img.stackshare.io/service/586/n4u37v9t_400x400.png' alt='Docker'/> [Docker](https://www.docker.com/) – Virtual Machine Platforms & Containers
 
 Full tech stack [here](/techstack.md)
---- Readme.md Snippet with images End ---
+
+&lt;--- Readme.md Snippet with images End ---&gt;
 -->
 <div align="center">
 
 # Tech Stack File
 ![](https://img.stackshare.io/repo.svg "repo") [kwongtn/website](https://github.com/kwongtn/website)![](https://img.stackshare.io/public_badge.svg "public")
 <br/><br/>
-|19<br/>Tools used|11/09/23 <br/>Report generated|
+|19<br/>Tools used|01/04/24 <br/>Report generated|
 |------|------|
 </div>
 
@@ -166,11 +170,11 @@ Full tech stack [here](/techstack.md)
 
 |NAME|VERSION|LAST UPDATED|LAST UPDATED BY|LICENSE|VULNERABILITIES|
 |:------|:------|:------|:------|:------|:------|
-|[icalendar](https://pypi.org/icalendar)|N/A|08/10/21|Daniel Holbach |BSD-3-Clause|N/A|
-|[pathlib](https://pypi.org/pathlib)|N/A|05/17/21|Daniel Holbach |MIT|N/A|
-|[python-dateutil](https://pypi.org/python-dateutil)|v2.8.1|08/10/21|Daniel Holbach |NRL|N/A|
-|[pytz](https://pypi.org/pytz)|N/A|08/11/21|Daniel Holbach |MIT|N/A|
-|[urllib3](https://pypi.org/urllib3)|N/A|08/10/21|Daniel Holbach |MIT|N/A|
+|[icalendar](https://pypi.org/project/icalendar)|N/A|08/10/21|Daniel Holbach |BSD-3-Clause|N/A|
+|[pathlib](https://pypi.org/project/pathlib)|N/A|05/17/21|Daniel Holbach |MIT|N/A|
+|[python-dateutil](https://pypi.org/project/python-dateutil)|v2.8.1|08/10/21|Daniel Holbach |NRL|N/A|
+|[pytz](https://pypi.org/project/pytz)|N/A|08/11/21|Daniel Holbach |MIT|N/A|
+|[urllib3](https://pypi.org/project/urllib3)|N/A|08/10/21|Daniel Holbach |MIT|N/A|
 
 
 ## <img width='24' height='24' src='https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png'/> npm (2)
@@ -183,4 +187,4 @@ Full tech stack [here](/techstack.md)
 <br/>
 <div align='center'>
 
-Generated via [Stack File](https://github.com/apps/stack-file)
+Generated via [Stack File](https://github.com/marketplace/stack-file)
