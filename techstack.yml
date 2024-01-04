@@ -1,7 +1,8 @@
 repo_name: kwongtn/website
 report_id: b10fdb12ad9aa95cc91234dbbc078c3d
+version: 0.1
 repo_type: Public
-timestamp: '2023-11-09T16:36:00+00:00'
+timestamp: '2024-01-04T15:05:32+00:00'
 requested_by: stefanprodan
 provider: github
 branch: main
@@ -16,6 +17,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/1209/javascript.jpeg
+  detection_source_url: https://github.com/kwongtn/website
   detection_source: Repo Metadata
 - name: Python
   description: A clear and powerful object-oriented programming language, comparable
@@ -26,6 +28,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/993/pUBY5pVj.png
+  detection_source_url: https://github.com/kwongtn/website
   detection_source: Repo Metadata
 - name: Ruby
   description: A dynamic, interpreted, open source programming language with a focus
@@ -36,6 +39,7 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/989/ruby.png
+  detection_source_url: https://github.com/kwongtn/website/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Daniel Holbach
   last_updated_on: 2021-05-17 16:22:13.000000000 Z
@@ -47,6 +51,7 @@ tools:
   category: Languages & Frameworks
   sub_category: CSS Pre-processors / Extensions
   image_url: https://img.stackshare.io/service/2202/72d087642cfce6fef6f2dabec5bf49e8_400x400.png
+  detection_source_url: https://github.com/kwongtn/website/blob/main/package.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-03-09 23:56:52.000000000 Z
@@ -59,6 +64,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Virtual Machine Platforms & Containers
   image_url: https://img.stackshare.io/service/586/n4u37v9t_400x400.png
+  detection_source_url: https://github.com/kwongtn/website
   detection_source: Repo Metadata
 - name: Git
   description: Fast, scalable, distributed revision control system
@@ -68,6 +74,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Version Control System
   image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/kwongtn/website
   detection_source: Repo Metadata
 - name: GitHub Actions
   description: Automate your workflow from idea to production
@@ -77,7 +84,8 @@ tools:
   category: Build, Test, Deploy
   sub_category: Continuous Integration
   image_url: https://img.stackshare.io/service/11563/actions.png
-  detection_source: ".github/workflows/update-contributors.yaml"
+  detection_source_url: https://github.com/kwongtn/website/blob/main/.github/workflows/build-push-hugo-image.yml
+  detection_source: ".github/workflows/build-push-hugo-image.yml"
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-01-30 23:00:49.000000000 Z
 - name: PyPI
@@ -88,6 +96,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Hosted Package Repository
   image_url: https://img.stackshare.io/service/12572/-RIWgodF_400x400.jpg
+  detection_source_url: https://github.com/kwongtn/website/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Daniel Holbach
   last_updated_on: 2021-05-17 16:22:13.000000000 Z
@@ -99,6 +108,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Package Managers
   image_url: https://img.stackshare.io/service/12795/5jL6-BA5_400x400.jpeg
+  detection_source_url: https://github.com/kwongtn/website/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Daniel Holbach
   last_updated_on: 2021-05-17 16:22:13.000000000 Z
@@ -110,6 +120,7 @@ tools:
   category: Build, Test, Deploy
   sub_category: Front End Package Manager
   image_url: https://img.stackshare.io/service/1120/lejvzrnlpb308aftn31u.png
+  detection_source_url: https://github.com/kwongtn/website/blob/main/package.json
   detection_source: package.json
   last_updated_by: lucperkins
   last_updated_on: 2019-08-13 17:47:43.000000000 Z
@@ -122,6 +133,7 @@ tools:
   category: Application Utilities
   sub_category: Static Web Hosting
   image_url: https://img.stackshare.io/service/2748/default_5dfbb146cf22182bca88c7d07f2515a5888fc12a.jpg
+  detection_source_url: https://github.com/kwongtn/website/blob/main/netlify.toml
   detection_source: netlify.toml
   last_updated_by: lucperkins
   last_updated_on: 2019-08-13 17:47:43.000000000 Z
@@ -134,34 +146,37 @@ tools:
   category: Languages & Frameworks
   sub_category: Languages
   image_url: https://img.stackshare.io/service/4631/default_c2062d40130562bdc836c13dbca02d318205a962.png
+  detection_source_url: https://github.com/kwongtn/website
   detection_source: Repo Metadata
 - name: icalendar
   description: ICalendar parser/generator
-  package_url: https://pypi.org/icalendar
+  package_url: https://pypi.org/project/icalendar
   license: BSD-3-Clause
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20211/default_91afeaad6f5d17a2b513346f3f744a53cbd8a9ad.png
+  detection_source_url: https://github.com/kwongtn/website/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Daniel Holbach
   last_updated_on: 2021-08-10 12:31:58.000000000 Z
 - name: pathlib
   description: Object-oriented filesystem paths
-  package_url: https://pypi.org/pathlib
+  package_url: https://pypi.org/project/pathlib
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/20231/default_cb6acd0ec3f2884b905de7c1ca3a23418f37ebb3.png
+  detection_source_url: https://github.com/kwongtn/website/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Daniel Holbach
   last_updated_on: 2021-05-17 16:22:13.000000000 Z
 - name: python-dateutil
   description: Extensions to the standard Python datetime module
-  package_url: https://pypi.org/python-dateutil
+  package_url: https://pypi.org/project/python-dateutil
   version: 2.8.1
   license: NRL
   open_source: true
@@ -169,31 +184,33 @@ tools:
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19833/default_58dbe7b4d7ec447b62773209af0f9a31bbabf5bd.png
-  detection_source_url: requirements.txt
+  detection_source_url: https://github.com/kwongtn/website/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Daniel Holbach
   last_updated_on: 2021-08-10 12:31:58.000000000 Z
 - name: pytz
   description: World timezone definitions, modern and historical
-  package_url: https://pypi.org/pytz
+  package_url: https://pypi.org/project/pytz
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19841/default_bb711fa267b2329ed689711a5adb7d9e74610b20.png
+  detection_source_url: https://github.com/kwongtn/website/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Daniel Holbach
   last_updated_on: 2021-08-11 14:33:30.000000000 Z
 - name: urllib3
   description: HTTP library with thread-safe connection pooling
-  package_url: https://pypi.org/urllib3
+  package_url: https://pypi.org/project/urllib3
   license: MIT
   open_source: true
   hosted_saas: false
   category: Libraries
   sub_category: PyPI Packages
   image_url: https://img.stackshare.io/package/19842/default_4604ff5dcb7f4d9c7b3833591c2142493951b19c.png
+  detection_source_url: https://github.com/kwongtn/website/blob/main/requirements.txt
   detection_source: requirements.txt
   last_updated_by: Daniel Holbach
   last_updated_on: 2021-08-10 12:31:58.000000000 Z
@@ -207,7 +224,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16012/default_7a88bebb451873cc63bd99007de5bd3bb8ef85de.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/website/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-01-06 23:01:16.000000000 Z
@@ -228,7 +245,7 @@ tools:
   category: Libraries
   sub_category: npm Packages
   image_url: https://img.stackshare.io/package/16326/default_97104dc50154593d2dde1d791400955934c9c715.png
-  detection_source_url: package-lock.json
+  detection_source_url: https://github.com/kwongtn/website/blob/main/package-lock.json
   detection_source: package.json
   last_updated_by: dependabot[bot]
   last_updated_on: 2023-01-06 23:01:16.000000000 Z
